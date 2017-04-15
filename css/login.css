@@ -1,0 +1,130 @@
+.login_content{
+    min-height: 100%;
+    overflow: hidden;
+}
+.login_content .login_main{
+    background-color: #fafafa;
+}
+.login_main .main_art{
+    display: -webkit-box;
+    display: flex;
+}
+.bg_content{
+    background: url("../img/38825c9d5aa2.png") 0 0 no-repeat;
+    background-size: 454px 618px;
+    margin-top: 20px;
+    margin-left: 165px;
+    margin-right: -15px;
+    display: -webkit-box;
+    display: flex;
+    flex-basis: 454px;
+    height: 618px;
+    box-sizing: border-box;
+}
+.bg_content .bg1{
+    margin: 99px 0 0 151px;
+    position: relative;
+}
+.bg1 img{
+    position: absolute;
+    height: 427px;
+    left: 0;
+    top: 0;
+    width: 240px;
+}
+.login_cons{
+    color: #262626;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 92px;
+    margin-left: 50px;
+    max-width: 350px;
+    position: relative;
+}
+.login_ma{
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+h3.login_title{
+    margin: 22px auto 8px;
+    display: block;
+    overflow: hidden;
+    width: 200px;
+    height: 41px;
+    font-size: 20px;
+    text-align: center;
+}
+.form_box{
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.box input{
+    outline: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 9px 8px 7px;
+    width:260px;
+    color: #262626;
+}
+
+.box input:focus{
+    border:1px solid #b2b2b2;
+    outline: none;
+}
+span{
+    box-sizing: border-box;
+}
+.box,.buttom{
+    margin: 0 40px 6px;
+    margin-top: 8px;
+    line-height: 22px;
+}
+.buttom input.bachi{
+    display: inline;
+}
+.buttom .bachitxt{
+    position: relative;
+    top: -2px;
+}
+.box .boxlogin{
+    background-color: #3897f0;
+    background: #3897f0;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+}
+.box .boxlogin:focus{
+    border: none;
+    outline: none;
+}
+.zcnews{
+    position: relative;
+    top: -2px;
+    margin-left: 138px;
+}
+.zcnews:hover{
+    text-decoration: underline;
+}
+.login_ma .zclg{
+    color: #262626;
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+.login_ma a.zcbg{
+    color: #3897f0;
+}
