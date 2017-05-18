@@ -1,2 +1,2 @@
-# hello-world
+# just test project
 first project
